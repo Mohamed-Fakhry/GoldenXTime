@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Golden X Time</string>
+    <string name="title_properties">عقاراتى</string>
+    <string name="remember_password">لا اتذكر كلمة المرور</string>
+    <string name="password">كلمة المرور</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="menu_3">اشعارات</string>
+    <string name="menu_2">عقاراتى</string>
+    <string name="menu_1">حسابى</string>
+</resources>
