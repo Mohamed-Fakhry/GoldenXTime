@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Golden X Time</string>
+    <string name="app_name">Golden Time</string>
     <string name="title_properties">عقاراتى</string>
     <string name="remember_password">لا اتذكر كلمة المرور</string>
     <string name="password">كلمة المرور</string>
@@ -8,4 +8,20 @@
     <string name="menu_3">اشعارات</string>
     <string name="menu_2">عقاراتى</string>
     <string name="menu_1">حسابى</string>
+    <string name="title_notifications">إشعارات</string>
+
+    <string name="verifyText">تاكيد</string>
+    <string name="codeText">الرمز</string>
+    <string name="sent_to_mail">تم ارسال للبريد الالكترونى</string>
+    <string name="error_email_not_found">البريد الالكترونى غير موجود</string>
+    <string name="error_no_iternet_connection">برجاء التأكد من الشبكة</string>
+    <string name="error_account_stopped">يرجى التواصل مع الادارة</string>
+    <string name="error_try_agine">حدث خطأ يرجى المحاولة مرة اخرى</string>
+    <string name="code_sent">تم ارسال الرمز</string>
+    <string name="error_username_or_password_incorrect">اسم المستخدم او كلمة السر غير صحيحة</string>
+    <string name="error_username_empty">برجاء ادخال اسم المستخدم</string>
+    <string name="error_password_empty">برجاء ادخال كلمة المرور</string>
+    <string name="error_username_and_password_empty">برجاء ادخال اسم المستخدم و كلمة المرور</string>
+    <string name="font_name">NeoSansArabic.ttf</string>
+    <string name="error_email_empty">برجاء ادخال البريد الالكترونى</string>
 </resources>

@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    tools:context="com.goldenxtime.com.goldenxtime.view.PropertyDetailsFragment">
+
+    <LinearLayout
+        android:id="@+id/classBuildingL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/classBuildingTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="بناية سكني"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ic_home"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/addressL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:gravity="right|center_vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/addressTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:lineSpacingExtra="8dp"
+            android:text="وسط المدينة برج دبى, وسط مدين دبى, دبى, الامارات العربية المتحدة "
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ic_location"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/notesL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:gravity="right|center_vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/notesTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:text="بعض المعلومات عن العقار"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ic_info"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:padding="8dp"
+            android:id="@+id/detailsRV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+</LinearLayout>

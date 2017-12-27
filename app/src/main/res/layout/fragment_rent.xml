@@ -1,0 +1,202 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.goldenxtime.com.goldenxtime.view.rent.RentFragment">
+
+    <LinearLayout
+        android:id="@+id/fSecL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="8dp"
+                android:background="@color/whiteColor">
+
+                <TextView
+                    android:id="@+id/renterNameTV"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textSize"
+                    android:text=""
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textSize"
+                    android:text="المؤجر"
+                    android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:padding="8dp"
+                    android:background="@color/colorAccent">
+
+                    <TextView
+                        android:id="@+id/rentStartDateTV"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textSize"
+                        android:text=""
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textSize"
+                        android:text="تاريخ بداية الايجار"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:padding="8dp"
+                    android:background="@color/whiteColor">
+
+                    <TextView
+                        android:id="@+id/rentEndDateTV"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textSize"
+                        android:text=""
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textSize"
+                        android:text="تاريخ نهاية الايجار"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:padding="8dp"
+                    android:background="@color/colorAccent">
+
+                    <TextView
+                        android:id="@+id/rentTypeTV"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textSize"
+                        android:text=""
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textSize"
+                        android:textAlignment="center"
+                        android:text="نوع الايجار"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:padding="8dp"
+                    android:background="@color/whiteColor">
+
+                    <TextView
+                        android:id="@+id/rentValueTV"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textSize"
+                        android:text=""
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textSize"
+                        android:text="قيمة الايجار"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/contractPicsB"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_bg"
+                    android:textColor="@color/whiteColor"
+                    android:layout_marginBottom="8dp"
+                    android:text="صور العقد"
+                    android:textSize="20sp"
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:id="@+id/caseL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="right"
+                    android:background="@color/cardview_dark_background"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/caseHTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="@dimen/textSize" />
+
+                    <TextView
+                        android:id="@+id/caseBTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="@dimen/textSize" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/sSecL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:padding="20dp"
+            android:text="غير مؤجر"/>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

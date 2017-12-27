@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.goldenxtime.com.goldenxtime.view.PropertiesFragment">
+    tools:context="com.goldenxtime.com.goldenxtime.view.properities.PropertiesFragment">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar_top"
@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:minHeight="?attr/actionBarSize"
         android:background="@color/colorPrimary"
-        android:paddingRight="16dp">
+        android:paddingRight="16dp"
+        android:elevation="8dp">
 
         <TextView
             android:id="@+id/toolbar_title"
@@ -25,9 +26,34 @@
             android:textSize="@dimen/text_title_size"/>
     </android.support.v7.widget.Toolbar>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/propertiesRV"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingBottom="28dp"/>
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/propertiesRV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/noContentL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:padding="20dp"
+                android:text="لا يوجد عقارات"/>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
 </LinearLayout>

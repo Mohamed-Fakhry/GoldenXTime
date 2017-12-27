@@ -2,8 +2,14 @@
 <resources>
     <color name="colorPrimary">#F0CB73</color>
     <color name="colorPrimaryDark">#AF8942</color>
-    <color name="colorAccent">#d9f0cb73</color>
+    <color name="colorAccent">#a6f0cb73</color>
     <color name="whiteColor">#FFF</color>
-    <color name="colorPrimarySec">#d4ececec</color>
     <color name="titleColor">#161414</color>
+    <color name="tab_checked">#F3CD70</color>
+    <color name="tab_unchecked">#FFFFFF</color>
+    <color name="bottomNavigationColor">#df69563d</color>
+    <color name="splashBacgroudColor">#FAFAFA</color>
+
+    <color name="secPrimart">#e7f7d47f</color>
+    <color name="colorView">#a6f0cb73</color>
 </resources>
